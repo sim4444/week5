@@ -7,3 +7,14 @@
 #paris_heading{
     background-color:pink;
 }
+span{
+    padding: 0 5px;
+    /* padding-left: ; */
+    border-top: 2px solid black ;
+    border-bottom: 4px solid gray;
+    
+}
+.para_border{
+    border: 10px ridge lightgreen;
+    margin: 5px;
+}
