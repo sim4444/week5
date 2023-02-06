@@ -18,3 +18,84 @@ span{
     border: 10px ridge lightgreen;
     margin: 5px;
 }
+/* a{
+    color: darkgreen;
+} */
+aside p a{
+    color:aqua
+}
+section p a{
+    background-color: aqua;
+}
+article p > a {
+    background-color:purple;
+}
+aside p{
+    background-color: green;
+}
+aside h2 ~ p {
+    background-color: brown;
+}
+h1,h2 {
+    color: orange;
+}
+h1.sim {
+    background-color: darkmagenta;
+}
+a:focus{
+    color:darkorchid;
+}
+a[title] {
+    background-color: aquamarine;
+}
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    position:relative;
+}
+.parent {
+    border: 1px solid red;
+    position: relative;
+}
+.box {
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+    position:fixed ;
+}
+.relative {
+    background-color:lightblue;
+    position:relative;
+    /* top: 10px;
+    right: 30px; */
+}
+.absolute {
+    background:pink;
+    position: absolute;
+    right:25%;
+    bottom: 55%;
+}
+.fixed {
+    background: lightgreen;
+    /* width: 100px; */
+    position: fixed;
+    /* top:0;
+    right : 0; */
+}
+.sticky {
+    background: lightgray;
+    position: sticky;
+    /* top: 10px; */
+}
+div + p {
+    color: blue;
+}
+div ~ p{
+    color: yellow;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
